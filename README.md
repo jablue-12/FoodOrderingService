@@ -1,7 +1,7 @@
 # Comp3020-Project
 
 ## Running
-open `website/` and run `index.html`
+run `index.html`
 
 ## Images
 - [Website Logo](https://www.pinterest.ca/pin/304555993544755889/)
