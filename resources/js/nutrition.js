@@ -105,7 +105,8 @@ function updateNutrition(){
         let fat = 0, carbs = 0, protein=0;
         for(let i = 0; i < cartRows.length;i++){
             let cartRow = cartRows[i];//get each cart-item from the list.
-            let rand = new Math.seedrandom(cartRow.innerText);
+            //console.log("num rows = " + cartRows.length)
+            let rand = new Math.seedrandom(cartRows.length);
             fat+=rannum(rand.quick(), 30, 2);
             carbs+=rannum(rand.quick(), 50, 10);
             protein+=rannum(rand.quick(), 30, 0);
